@@ -1,6 +1,5 @@
-package Sort;
+package Chapters01;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 /**
@@ -9,7 +8,7 @@ import java.util.Arrays;
  * @Description: 冒泡排序
  * @Date 2023/6/15 20:24
  **/
-public class BubbleSort {
+public class Chapters01_02_BubbleSort {
     public static void bubbleSort(int[] arr){
         if(arr == null || arr.length < 2){
             return;

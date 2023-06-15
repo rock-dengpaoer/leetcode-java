@@ -1,4 +1,4 @@
-package Sort;
+package Chapters01;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @Description: 选择排序的实现
  * @Date 2023/6/15 19:58
  **/
-public class SelectSort {
+public class Chapters1_01_SelectSort {
     public static void selectSot(int[] arr){
         if(arr == null || arr.length < 2){
             return;
